@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ss_baez.mismapas.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="35dp"
+        android:paddingTop="90dp"
+        >
+
+        <ImageButton
+            android:id="@+id/IMGB_Economia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/economia"
+            tools:layout_editor_absoluteY="53dp"
+            tools:layout_editor_absoluteX="36dp"
+            android:onClick="irMapa"
+            />
+
+        <ImageButton
+            android:id="@+id/IMGB_Ciencias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ciencias"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="53dp"
+            android:onClick="irMapaCiencia"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingLeft="35dp"
+        >
+
+        <ImageButton
+            android:id="@+id/IMGB_Medicina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/medicina"
+            tools:layout_editor_absoluteY="221dp"
+            tools:layout_editor_absoluteX="36dp"
+            android:onClick="irMapaMedicina"/>
+
+        <ImageButton
+            android:id="@+id/IMGB_Politicas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/politicas"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="221dp"
+            android:onClick="irMapaPoliticas"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

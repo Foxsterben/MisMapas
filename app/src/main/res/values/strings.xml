@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MisMapas</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_ciencias">Map</string>
+    <string name="title_activity_maps_medicina">Map</string>
+    <string name="title_activity_maps_politicas">Map</string>
+</resources>
